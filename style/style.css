@@ -703,3 +703,33 @@ a{
     max-width: 500px;
     margin: 0 auto;
   }
+
+  /* Features*/
+
+.feature-element{
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+
+.feature__heading{
+    margin-top: 1rem;
+    white-space: nowrap;
+}
+
+.feature{
+    gap: 4rem 2rem;
+    margin: 12rem 0;
+}
+
+.feature__image{
+   width: 100%; 
+}
+
+.feature:first-of-type{
+    margin-top: 5rem;
+}
+@media  screen and (min-width:768px) {
+   .feature:nth-of-type(even) .feature__content{
+    order:2;
+   } 
+}
